@@ -1,6 +1,6 @@
 # About the repository
 
-This is the sample code that
+This is the sample code to accompany the blog published on [dev.to]() and [blog.kleeut.com](https://blog.kleeut.com/2020/06/building-verify-jwt-function-in.html)
 
 # Verifying an RS232 signed JWT
 
