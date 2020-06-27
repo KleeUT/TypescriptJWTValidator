@@ -1,0 +1,34 @@
+{
+  "name": "typescriptjwtvalidator",
+  "version": "1.0.0",
+  "description": "JSON Web Tokens (JWT) are used as a way to verify the identity of the caller of an API.\r **The best way to verify a JWT is to use a verification library.**\r I wanted to have a look at some of what those libraries are doing under the hood by putting together a function that will return if a given token is valid. In this blog I'll go through what I have done to get a validation function working.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/jwks.js",
+    "test": "jest src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^26.0.3",
+    "@types/node-fetch": "^2.5.7",
+    "@types/node-rsa": "^1.0.0",
+    "base64url": "^3.0.1",
+    "jest": "^26.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.0",
+    "node-rsa": "^1.0.8",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KleeUT/TypescriptJWTValidator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KleeUT/TypescriptJWTValidator/issues"
+  },
+  "homepage": "https://github.com/KleeUT/TypescriptJWTValidator#readme"
+}
